@@ -1,0 +1,23 @@
+Package: PLNFGL
+Title: Joint Estimation of Gene Regulatory Networks Based on scRNA-seq
+        Data
+Version: 0.0.0.9000
+Authors@R: 
+    c(person("Jiadong", "Ji", email = "jiadong@sdu.edu.cn", role = c("aut", "cre")), person("Wenli", "Zhai", email = "zwenli@zju.edu.cn", role = c("aut")))
+Maintainer: Jiadong Ji <jiadong@sdu.edu.cn>
+Description: PLNFGLs is an R package that can jointly estimate multiple gene regulatory networks based on scRNA-seq data.
+License: MIT + file LICENSE
+URL: https://github.com/jijiadong/PLNFGL
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3
+LinkingTo: Rcpp, RcppArmadillo
+Imports: Rcpp, JGL, igraph, CVXR, RcppArmadillo, huge, stringr, plyr,
+        PRROC, network, ggnetwork, reshape2, evd
+Suggests: knitr, rmarkdown
+VignetteBuilder: knitr
+LazyLoad: yes
+NeedsCompilation: no
+Packaged: 2025-11-24 10:53:08 UTC; zhaiwl
+Author: Jiadong Ji [aut, cre],
+  Wenli Zhai [aut]
