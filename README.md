@@ -11,7 +11,7 @@ if (!require("devtools")) {
 devtools::install_github("jijiadong/PLNFGL")
 library(PLNFGL)
 ```
-## Simulating Multi-Class Poisson Log-Normal Data
+## Simulate Multi-Class Poisson Log-Normal Data
 ### 1. Generate True Precision Matrices
 We first generate scale-free networks for three classes:
 ```
